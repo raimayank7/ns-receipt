@@ -1,5 +1,5 @@
-const CACHE = 'ns-receipt-29153574fd';
-const SHELL = ["/", "/assets/b-base-t.8a21acf940.css", "/assets/b-core-m.97bd5d97b0.js", "/assets/b-store.53cfaac6df.js", "/assets/books.js?v=fefe7d77a5", "/assets/xlsx.js?v=8918149ae7", "/assets/tally.js?v=b0d7bd0579", "/assets/acct.js?v=9fb0bd38a9", "/assets/cashare.js?v=c7cf4d6b68", "/assets/caui.js?v=b89018e749", "/assets/rpcore.js?v=c80649591a", "/assets/pmforms.js?v=bc331e94da"];
+const CACHE = 'ns-receipt-2f270dac71';
+const SHELL = ["/", "/assets/b-rcptbulk-t.8a882835aa.css", "/assets/b-core-m.2ff7f2214a.js", "/assets/b-store.ddf1127f05.js", "/assets/books.js?v=fefe7d77a5", "/assets/xlsx.js?v=1433e62b5b", "/assets/tally.js?v=b0d7bd0579", "/assets/acct.js?v=9fb0bd38a9", "/assets/cashare.js?v=c7cf4d6b68", "/assets/caui.js?v=b89018e749", "/assets/rpcore.js?v=c80649591a", "/assets/pmforms.js?v=bc331e94da"];
 const WARM = [], LGROUPS = [];
 const slow = () => { const c = self.navigator && navigator.connection; return !!c && (c.saveData || /2g/.test(c.effectiveType || '')); };
 const keep = (c, list) => Promise.allSettled(list.map(u => c.match(u).then(m => m || c.add(u))));
